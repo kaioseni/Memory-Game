@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/carta0"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="play"
+            android:tag="0"
+            app:srcCompat="@drawable/help"
+            tools:srcCompat="@drawable/help" />
+
+        <ImageView
+            android:id="@+id/carta1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="play"
+            android:tag="1"
+            app:srcCompat="@drawable/help"
+            tools:srcCompat="@drawable/help" />
+
+        <ImageView
+            android:id="@+id/carta2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="play"
+            android:tag="2"
+            app:srcCompat="@drawable/help"
+            tools:srcCompat="@drawable/help" />
+
+        <ImageView
+            android:id="@+id/carta3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="play"
+            android:tag="3"
+            app:srcCompat="@drawable/help"
+            tools:srcCompat="@drawable/help" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/carta4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="carta4"
+            android:onClick="play"
+            android:tag="4"
+            app:srcCompat="@drawable/help"
+            tools:srcCompat="@drawable/help" />
+
+        <ImageView
+            android:id="@+id/carta5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="carta5"
+            android:onClick="play"
+            android:tag="5"
+            app:srcCompat="@drawable/help"
+            tools:srcCompat="@drawable/help" />
+
+        <ImageView
+            android:id="@+id/carta6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="carta6"
+            android:onClick="play"
+            android:tag="6"
+            app:srcCompat="@drawable/help"
+            tools:srcCompat="@drawable/help" />
+
+        <ImageView
+            android:id="@+id/carta7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="carta7"
+            android:onClick="play"
+            android:tag="7"
+            app:srcCompat="@drawable/help"
+            tools:srcCompat="@drawable/help" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/carta8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="play"
+            android:tag="8"
+            app:srcCompat="@drawable/help"
+            tools:srcCompat="@drawable/help" />
+
+        <ImageView
+            android:id="@+id/carta9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="play"
+            android:tag="9"
+            app:srcCompat="@drawable/help"
+            tools:srcCompat="@drawable/help" />
+
+        <ImageView
+            android:id="@+id/carta10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="play"
+            android:tag="10"
+            app:srcCompat="@drawable/help"
+            tools:srcCompat="@drawable/help" />
+
+        <ImageView
+            android:id="@+id/carta11"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="play"
+            android:tag="11"
+            app:srcCompat="@drawable/help"
+            tools:srcCompat="@drawable/help" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/carta12"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="play"
+            android:tag="12"
+            app:srcCompat="@drawable/help"
+            tools:srcCompat="@drawable/help" />
+
+        <ImageView
+            android:id="@+id/carta13"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="play"
+            android:tag="13"
+            app:srcCompat="@drawable/help"
+            tools:srcCompat="@drawable/help" />
+
+        <ImageView
+            android:id="@+id/carta14"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="play"
+            android:tag="14"
+            app:srcCompat="@drawable/help"
+            tools:srcCompat="@drawable/help" />
+
+        <ImageView
+            android:id="@+id/carta15"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="play"
+            app:srcCompat="@drawable/help"
+            tools:srcCompat="@drawable/help" />
+    </LinearLayout>
+
+</LinearLayout>
